@@ -9,8 +9,8 @@ class Connexion
 
 	function __construct($log, $pass)
 	{
-		$this->_login = $log;
-		$this ->_password = $pass;
+		$this->setLogin($log);
+		$this->setPassword($pass);
 	}
 
 		
@@ -31,10 +31,26 @@ class Connexion
 
 	public function stateSession(){
 		if ($this->checkInfo() == true) {
-			return '<h3>Vous êtes connecté</h3>';
+			return '<h3 class="text-center">Vous êtes connecté</h3>';
 		}else{
-			return '<h3>Pas connecté</h3>';
+			return '<h3 class="text-center">Pas connecté</h3>';
 		}
+	}
+
+	private function setLogin($setlog){
+		$this->_login = $setlog;
+	}
+
+	private function setPassword($setpass){
+		$this->_password = $setpass;
+	}
+
+	public function getLogin(){
+		return $this->_login;
+	}
+
+	private function getPassword(){
+		return $this->_password;
 	}
 	
 	

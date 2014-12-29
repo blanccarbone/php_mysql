@@ -28,13 +28,62 @@
     </fieldset>
 </form>
 
-<?php 
+
+<?php
 
 if (isset($_POST['flog']) AND isset($_POST['fpass'])) {
     $connexionA = new Connexion($_POST['flog'], $_POST['fpass']);
-    echo ($connexionA->stateSession()); 
+    echo ($connexionA->stateSession());
 }
 
 
 
+
 ?>
+
+
+<form class="form-horizontal" method="post" action="index.php">
+    <fieldset>
+
+        <!-- Form Name -->
+        <legend>Nombre à afficher</legend>
+
+        <!-- Select Basic -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="selectbasic">Select Basic</label>
+            <div class="col-md-4">
+                <select id="selectbasic" name="ok"  class="form-control">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Button -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="singlebutton"></label>
+            <div class="col-md-4">
+                <button id="singlebutton" name="singlebutton"  class="btn btn-primary btn-block">Button</button>
+            </div>
+        </div>
+
+    </fieldset>
+</form>
+
+
+
+
+
+
+
+
+
+

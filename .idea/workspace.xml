@@ -4,13 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/mvc/controleur/Connexion.class.php" line="36" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c82f078-6bc7-44d5-be82-29ed3bba8248" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/controleur/Bdd.class.php" afterPath="$PROJECT_DIR$/mvc/controleur/Bdd.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvc/vue/login.php" afterPath="$PROJECT_DIR$/mvc/vue/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="1c82f078-6bc7-44d5-be82-29ed3bba8248" name="Default" comment="" />
     <ignored path="php_mysql.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -121,7 +115,7 @@
       <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mvc/vue/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="6.2713566" vertical-offset="0" max-vertical-offset="1504">
+            <state vertical-scroll-proportion="1.8995434" vertical-offset="0" max-vertical-offset="1504">
               <caret line="78" column="7" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
               <folding />
             </state>
@@ -603,16 +597,16 @@
       <workItem from="1419819031583" duration="171000" />
       <workItem from="1419819219525" duration="1211000" />
       <workItem from="1419872873670" duration="568000" />
-      <workItem from="1419877203659" duration="20138000" />
+      <workItem from="1419877203659" duration="20866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43530000" />
+    <option name="totallyTimeSpent" value="44258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -624,7 +618,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6352289" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6352289" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5256588" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13323572" sideWeight="0.4992126" order="0" side_tool="false" content_ui="combo" />
@@ -1045,7 +1039,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mvc/vue/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="6.2713566" vertical-offset="0" max-vertical-offset="1504">
+        <state vertical-scroll-proportion="1.8995434" vertical-offset="0" max-vertical-offset="1504">
           <caret line="78" column="7" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
           <folding />
         </state>

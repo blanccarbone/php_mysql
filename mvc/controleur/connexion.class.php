@@ -6,6 +6,7 @@ class Connexion
 	private $_login;
 	private $_password;
 	private $_access = array("Charles" => "root");
+	private bdd =
 
 	function __construct($log, $pass)
 	{

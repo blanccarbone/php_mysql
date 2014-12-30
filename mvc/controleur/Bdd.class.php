@@ -1,25 +1,35 @@
+
+
+
+
+
 <?php
 
 	try {
 
-		$bdd = new PDO('mysql:host=localhost;dbname=test', 'Charles', 'root');
+		$bdd = new PDO('mysql:host=localhost;dbname=test', 'Charles', 'root', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 		
 	} catch (Exception $e) {
 		die('Erreur : ' . $e->getMessage());
 		
 	}
 
-    $reponse = $bdd->query('SELECT nom, console, prix FROM jeux_video ORDER BY prix');
+
+    $reponse = $bdd->prepare("SELECT nom FROM jeux_video WHERE prix >= :lim");
+	$reponse->bindParam('lim',$_POST['choix'],PDO::PARAM_INT);
+	$reponse->execute();
+
+
+	echo '<ul class="list-group">';
 
     while($donnees = $reponse->fetch()){
 ?>
-    <p><strong><?php echo $donnees['nom'] . ' ';?></strong><?php echo $donnees['prix'] . ' ';?></p>
+    	<li class="list-group-item"><?php echo $donnees['nom'];?></li>
 
 
 <?php
 }
-
-$reponse->closeCursor();
+echo'</ul>';
 
 ?>
 

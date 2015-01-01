@@ -1,14 +1,7 @@
-<?php session_start(); ?>
-
-
-<?php include ('navi.php');?>
-
-<form method="post" action="login.php" class="form-horizontal">
+<form method="post" action="index.php" class="form-horizontal">
     <fieldset>
-
         <!-- Form Name -->
-        <legend class="text-center">Login</legend>
-
+        <h3 class="text-center">Login</h3>
         <!-- Text input-->
         <div class="form-group">
             <label class="col-md-4 control-label" for="textinput"></label>
@@ -17,7 +10,6 @@
                 <span class="help-block"></span>
             </div>
         </div>
-
         <!-- Password input-->
         <div class="form-group">
             <label class="col-md-4 control-label" for="passwordinput"></label>
@@ -26,7 +18,6 @@
                 <span class="help-block"></span>
             </div>
         </div>
-
         <!-- Button -->
         <div class="form-group">
             <label class="col-md-4 control-label" for="singlebutton"></label>
@@ -34,14 +25,29 @@
                 <button id="singlebutton" name="singlebutton" class="btn btn-primary btn-block">Button</button>
             </div>
         </div>
-
     </fieldset>
-</form>    
+</form>
 
 
-<?php include("secret.php");?>
+<?php
+
+if (isset($_POST['flog']) AND isset($_POST['fpass'])) {
+    $connexionA = new Check_login($_POST['flog'], $_POST['fpass']);
+    $connexionA->check_login();
+}
 
 
 
 
-<?php include("footer.php");?>
+?>
+
+
+
+
+
+
+
+
+
+
+

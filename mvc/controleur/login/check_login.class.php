@@ -1,4 +1,10 @@
-<?php 
+<?php
+
+// Inclusion du modele
+include 'modele/login/login_functions.php';
+
+
+// Démarage du controleur
 
 class Check_login
 {
@@ -57,4 +63,8 @@ class Check_login
 	}
 	
 }
+
+// Inclusion de la vue
+include 'vue/login/login.php';
+
  ?>
